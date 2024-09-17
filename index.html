@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box that changes Shape</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            background-color: chocolate;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        #b3:hover{
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            background-color: rgb(30, 210, 69);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="b1" class="box">Box1</div>
+        <div id="b2" class="box">Box2</div>
+        <div id="b3" class="box">Box3</div>
+        <div id="b5" class="box">Box4</div>
+        <div id="b5" class="box">Box5</div>
+       
+    </div>
+</body>
+</html>
